@@ -9,5 +9,5 @@ try:
 except Exception as e:
     print (e)
     myrepo = git. Repo (localfolder)
-    myrepo.remotes.origin.pull("master")
+    myrepo.remotes.origin.pull("version2")
     

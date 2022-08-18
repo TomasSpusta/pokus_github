@@ -8,6 +8,6 @@ try:
     myrepo = git.Repo.clone_from (remoteurl, localfolder)
 except Exception as e:
     print (e)
-    myrepo = git. Repo (localfolder)
+    myrepo = git.Repo (localfolder)
     myrepo.remotes.origin.pull("version2")
     
